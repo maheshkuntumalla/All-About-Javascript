@@ -16,6 +16,7 @@ console.log("Mahesh");
 //null => standalone value, typeof null => object (bug)
 //undefined => standalone value typeof undefined => undefined
 //symbol => unique value
+//NaN => not a number
 
 // reference data types
 // array => [1,2,3]
