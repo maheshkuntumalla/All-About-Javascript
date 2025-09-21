@@ -1,0 +1,20 @@
+console.log(2 > 2); // false
+console.log(2 >= 1); // true
+console.log(2 < 1); // false
+console.log(2 <= 2); // true
+console.log(2 !== 2); // true (value)
+
+console.log("2" > 1); // true (string converted to number)
+console.log("02" > 1); // true (string converted to number)
+
+console.log(null > 0); // false (null converted to number)
+console.log(null >= 0); // true (null converted to number)
+console.log(null == 0); // false (null is equal to undefined only)
+
+console.log(undefined == 0); // false (undefined converted to number)
+console.log(undefined > 0); // false (undefined converted to number)
+console.log(undefined < 0); // false (undefined converted to number)
+
+// === vs ==
+console.log(1 == "1"); // true (string converted to number)
+console.log(1 === "1"); // false (strict check, no type conversion)
